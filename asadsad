@@ -1,0 +1,41 @@
+[33mcommit b28fe6022127b24e9fa964da834fd0d7ada250cb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Tue Jul 15 23:08:01 2025 +0300
+
+    class test
+
+[33mcommit 56f39959f1dbc6de225af8e8d09de6465aa219dc[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Tue Jul 15 17:48:07 2025 +0300
+
+    new class added
+
+[33mcommit 4cf4dd6b914a0a3bcbad3a6a1ac5d4c93a10ebcf[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Tue Jul 15 00:40:49 2025 +0300
+
+    gtest added
+
+[33mcommit 61188843864e9347f4815d1409649e0129a90297[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Tue Jul 15 00:13:57 2025 +0300
+
+    First fixes
+
+[33mcommit ba4aebe1689646c8787afbec329c7d0149e0ad69[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Tue Jul 15 00:09:26 2025 +0300
+
+    Initial commit
+
+[33mcommit 73f9bbfdafa0e88f04fbf52b9c31440750f1a925[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Mon Jul 14 23:55:42 2025 +0300
+
+    Add project files.
+
+[33mcommit 3e295d271835611cc9e94ec11651d812499a32d4[m
+Author: Роман Попов <rapopov2004@yandex.ru>
+Date:   Mon Jul 14 23:55:39 2025 +0300
+
+    Add .gitattributes and .gitignore.
