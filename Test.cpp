@@ -4,10 +4,6 @@
 
 using namespace std;
 
-TEST(SampleTests, Test1) {
-    EXPECT_EQ(1, 1);
-}
-
 class BankAccount {
 private:
     double balance;
@@ -30,7 +26,7 @@ public:
         return balance;
     }
 
-    std::string getOwner() const {
+    string getOwner() const {
         return owner;
     }
 
@@ -39,14 +35,23 @@ public:
     }
 };
 
+TEST(BankAccountTest, DepAndWithdrTest) {
+    BankAccount acc("Tom", 100);
+
+    int dep = 15, red = 30;
+
+    acc.deposit(dep);
+
+    EXPECT_EQ(acc.getBalance(), 115);
+
+    acc.withdraw(red);
+
+    EXPECT_EQ(acc.getBalance(), 85);
+}
+
 int main(int argc, char **argv) {
     
-    BankAccount person("Tom", 35000);
-    person.getInfo();
-    person.withdraw(10000);
-    person.deposit(150000);
-    person.getInfo();
-    
+  
     ::testing::InitGoogleTest(&argc, argv);
 
     return RUN_ALL_TESTS();
