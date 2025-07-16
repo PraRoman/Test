@@ -1,34 +1,27 @@
 #ifndef BANKACCOUNT_H
 #define BANKACCOUNT_H
 
+#include <string>
+
+using namespace std;
+
 class BankAccount {
 private:
     double balance;
-    std::string owner;
+    string owner;
 
 public:
-    BankAccount(const std::string& ownerName, double initialBalance) : owner(ownerName), balance(initialBalance) {
-    }
+    BankAccount(const string& ownerName, double initialBalance);
 
-    void deposit(int addition) {
-        if (addition > 0) balance += addition;
-    }
+    void deposit(int addition);
 
-    void withdraw(int reduction) {
-        if (reduction > 0) balance -= reduction;
-    }
+    void withdraw(int reduction);
 
-    double getBalance() const {
-        return balance;
-    }
+    double getBalance();
 
-    string getOwner() const {
-        return owner;
-    }
+    string getOwner() const;
 
-    bool hasNonNegativeBalance() const {
-        return balance >= 0;
-    }
+    bool hasNonNegativeBalance();
 };
 
 #endif
