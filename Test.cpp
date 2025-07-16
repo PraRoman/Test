@@ -61,7 +61,7 @@ TEST(CardTest, ConstructorSetsFieldsCorrectly) {
 TEST(CardTest, DepositIncreasesBalance) {
     Card card("Ivan", "Sberbank", 1234, 500);
     card.deposit(1000);
-    EXPECT_DOUBLE_EQ(card.getBalance(), 500.0);
+    EXPECT_DOUBLE_EQ(card.getBalance(), 1500.0);
 }
 
 TEST(CardTest, WithdrawDecreasesBalance) {
